@@ -1,5 +1,8 @@
 #include<stdio.h>
-//scanf 輸入函式and算三個數字的和
+/*
+03-05
+scanf 輸入函式and算三個數字的和
+*/
 int main()
 {
     //寫法1
