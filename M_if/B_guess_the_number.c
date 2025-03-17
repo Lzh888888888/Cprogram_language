@@ -1,6 +1,8 @@
 #include<stdio.h>
-//06-03簡易猜數字(使用if)
-
+/*
+06-03
+簡易猜數字(使用if)
+*/
 int main()
 {
     int answer = 4;

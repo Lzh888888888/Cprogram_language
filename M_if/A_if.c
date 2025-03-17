@@ -1,5 +1,8 @@
 #include<stdio.h>
-//06-02if述句
+/*
+06-02
+if述句
+*/
 
 int main()
 {
