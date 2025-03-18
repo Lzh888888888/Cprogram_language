@@ -23,7 +23,7 @@ int main()
         printf("Rectangular triangle\n");//直角三角形
     }
 
-    //簡化版(指定side1 <= side2 <= side3)
+    //簡化版(手動輸入邊長時，需要讓side1 <= side2 <= side3)
     if(side1 <= side2 <= side3){
         if(side1 == side3){
             printf("Regular triangle\n");//正三角形

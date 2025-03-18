@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
-07-06 07-07
+07-06 07-07 07-08 07-09
 對兩個變數排序、
 三個變數的數值交換、
 對三個變數排序(使用if)
@@ -10,20 +10,20 @@ int main()
 {
     int a,b,t;
     //兩個變數由小到大排序
-    printf('Please enter the two intergret: ');
+    printf("Please enter the two integers: ");
     scanf("%d%d",&a,&b);
-    printf("Before: %d %d\n",a,b);
+    printf("Before two integers: %d %d\n",a,b);
     if(a>b){
         t = a;
         a = b;
         b = t;
     }
-    printf("After: %d %d\n",a,b);
+    printf("After two integers: %d %d\n",a,b);
 
     //三個變數數值交換
     a = 2 , b = 7; 
     int c=9;
-    printf("Before: %d %d %d\n",a,b,c);
+    printf("Before three integers: %d %d %d\n",a,b,c);
 /*第一種：
     t = a;
     a = c;
@@ -39,10 +39,10 @@ int main()
     t = b;
     b = c;
     c = t;
-    printf("After: %d %d %d\n",a,b,c);
+    printf("After three integers: %d %d %d\n",a,b,c);
 
     //三個變數由小到大排序
-    printf('Please enter the three interger: ');
+    printf("Please enter the three integers: ");
     scanf("%d%d%d",&a,&b,&c);
     printf("Before: %d %d %d\n",a,b,c);
     if(a<c && c<b){
