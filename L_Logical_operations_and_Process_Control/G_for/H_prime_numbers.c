@@ -10,7 +10,7 @@ int main()
     int n,number;
     printf("N = ");
     scanf("%d",&n);
-//將isPrime變數利用布林來確認是不是質數
+//第一種：將isPrime變數利用布林來確認是不是質數
 /*  int isPrime = 1;
     for (number = 2; number < n && isPrime; ++number){
             if (n % number == 0){
@@ -23,7 +23,8 @@ int main()
         printf("No\n");
     }
 */
-//利用number的累加，使得在過程中都沒有整除N的數，就可以確認N為質數。
+
+//第二種：利用number的累加，使得在過程中都沒有整除N的數，就可以確認N為質數。
     for (number = 2; number < n && n % number != 0; ++number);
     if (number == n){
         printf("Yes\n");
