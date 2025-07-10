@@ -34,12 +34,8 @@ int main(){
     int i,j;
     for (i = 1; i <= 6000; ++i){
         int dice = rand() % 6 + 1;
-        for (j = 1; j <= 6; ++j){
-            if (dice == j){
-                counter[j - 1]++;
-            }
+        counter[dice - 1]++;
         }
-    }
     for (j = 1; j <= 6; ++j){
         printf("%d: %d\n", j, counter[j-1]);
     }
